@@ -173,35 +173,35 @@ async function GetInfo2() {
 
 const routes = {
     404: {
-        template: "/pages/404.html",
+        template: "pages/404.html",
         titel: "",
         description: ""
     }, "Home": {
-        template: "/pages/index.html",
+        template: "pages/index.html",
         titel: "",
         description: ""
     }, "Basic": {
-        template: "/pages/basic.html",
+        template: "pages/basic.html",
         titel: "",
         description: ""
     }, "InDepth": {
-        template: "/pages/indepth.html",
+        template: "pages/indepth.html",
         titel: "",
         description: ""
     }, "Compare": {
-        template: "/pages/compare.html",
+        template: "pages/compare.html",
         titel: "",
         description: ""
     }, "BasicCompare": {
-        template: "/pages/basiccompare.html",
+        template: "pages/basiccompare.html",
         titel: "",
         description: ""
     }, "InDepthCompare": {
-        template: "/pages/indepthcompare.html",
+        template: "pages/indepthcompare.html",
         titel: "",
         description: ""
     }, "BasicChart": {
-        template: "/pages/basicchart.html",
+        template: "pages/basicchart.html",
         titel: "",
         description: ""
     }
