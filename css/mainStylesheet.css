@@ -1,0 +1,64 @@
+:root {
+    --bg-accent: #E8C3FF;
+}
+
+body{
+    color: #1e1e1e;
+}
+
+#header {
+    padding: 20px;
+    font-size: 17px;
+    background-color: var(--bg-accent);
+}
+
+.body-div {
+    margin-top: 200px;
+    background-color: var(--bg-accent);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.information-div {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.search {
+    float: right;
+}
+
+svg{
+    color: white;
+}
+
+.col{
+    margin: 5px;
+}
+
+#title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 250px;
+    background-color: var(--bg-accent);
+}
+
+#starter{
+    background-color: var(--bg-accent);
+}
+
+#starterblock{
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 360px;
+}
+
+#carouselExampleControls{
+    padding: 50px;
+}
+
+#topcharts{
+    white-space: nowrap;
+}
+
