@@ -173,35 +173,35 @@ async function GetInfo2() {
 
 const routes = {
     404: {
-        template: "pages/404.html",
+        template: "/stocksearch/pages/404.html",
         titel: "",
         description: ""
     }, "Home": {
-        template: "pages/index.html",
+        template: "/stocksearch/pages/index.html",
         titel: "",
         description: ""
     }, "Basic": {
-        template: "pages/basic.html",
+        template: "/stocksearch/pages/basic.html",
         titel: "",
         description: ""
     }, "InDepth": {
-        template: "pages/indepth.html",
+        template: "/stocksearch/pages/indepth.html",
         titel: "",
         description: ""
     }, "Compare": {
-        template: "pages/compare.html",
+        template: "/stocksearch/pages/compare.html",
         titel: "",
         description: ""
     }, "BasicCompare": {
-        template: "pages/basiccompare.html",
+        template: "/stocksearch/pages/basiccompare.html",
         titel: "",
         description: ""
     }, "InDepthCompare": {
-        template: "pages/indepthcompare.html",
+        template: "/stocksearch/pages/indepthcompare.html",
         titel: "",
         description: ""
     }, "BasicChart": {
-        template: "pages/basicchart.html",
+        template: "/stocksearch/pages/basicchart.html",
         titel: "",
         description: ""
     }
