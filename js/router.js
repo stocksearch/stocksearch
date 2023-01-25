@@ -88,7 +88,7 @@ function GetInfo() {
             stocks.stockOne.stockDayBefore = Number(data.quoteResponse.result[0].preMarketPrice);
             stocks.stockOne.stockOpening = Number(data.quoteResponse.result[0].regularMarketOpen);
             stocks.stockOne.stockDailyHigh = Number(data.quoteResponse.result[0].regularMarketDayHigh);
-            stocks.stockOne.stockDailyHigh = Number(data.quoteResponse.result[0].regularMarketDayLow);
+            stocks.stockOne.stockDailyLow = Number(data.quoteResponse.result[0].regularMarketDayLow);
             stocks.stockOne.stockMarketCapital = Number(data.quoteResponse.result[0].marketCap);
             stocks.stockOne.stockEbit = Number(data.quoteResponse.result[0].ebitda);
 
@@ -143,7 +143,7 @@ async function GetInfo2() {
             stocks.stockTwo.stockDayBefore = Number(data.quoteResponse.result[0].preMarketPrice);
             stocks.stockTwo.stockOpening = Number(data.quoteResponse.result[0].regularMarketOpen);
             stocks.stockTwo.stockDailyHigh = Number(data.quoteResponse.result[0].regularMarketDayHigh);
-            stocks.stockTwo.stockDailyHigh = Number(data.quoteResponse.result[0].regularMarketDayLow);
+            stocks.stockTwo.stockDailyLow = Number(data.quoteResponse.result[0].regularMarketDayLow);
             stocks.stockTwo.stockMarketCapital = Number(data.quoteResponse.result[0].marketCap);
             stocks.stockTwo.stockEbit = Number(data.quoteResponse.result[0].ebitda);
 
