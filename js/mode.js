@@ -1,7 +1,7 @@
 const optionEERs = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '1a1ee9c7a5mshe5288ea1e68b681p1b014bjsn95b9eb0690c8',
+        'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
         'X-RapidAPI-Host': 'sunrise-sunset-times.p.rapidapi.com'
     }
 };
