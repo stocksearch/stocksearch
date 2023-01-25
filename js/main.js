@@ -2,11 +2,10 @@ function homeStocks(){
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '57cd17592emsh3fc1f0fcf9b10a3p1a0b28jsn5ff89fd9fddf',
+            'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
             'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
         }
     };
-
 fetch('https://yh-finance.p.rapidapi.com/market/v2/get-quotes?region=DE&symbols=ABB%2C%20UBS%2C%20CS', options)
     .then(response => response.json())
     .then(data =>{
