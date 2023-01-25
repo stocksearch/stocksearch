@@ -62,7 +62,7 @@ function GetInfo() {
     const key = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '57cd17592emsh3fc1f0fcf9b10a3p1a0b28jsn5ff89fd9fddf',
+            'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
             'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
         }
     };
@@ -124,11 +124,11 @@ async function GetInfo2() {
     const key = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '57cd17592emsh3fc1f0fcf9b10a3p1a0b28jsn5ff89fd9fddf',
+            'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
             'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
         }
     };
-
+    
     var option = document.getElementById("select1");
     var regionSearch = option.options[option.selectedIndex].value;
 
@@ -462,11 +462,11 @@ var yValuesStockTwo;
 
 async function getChartData() {
     const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '57cd17592emsh3fc1f0fcf9b10a3p1a0b28jsn5ff89fd9fddf',
-            'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
-        }
+    method: 'GET',
+         headers: {
+             'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
+             'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
+         }
     };
 
     var timeRange = document.getElementById("select-time-interval").value;var timeInterval;
@@ -535,7 +535,7 @@ async function getChartDataStockTwo() {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '57cd17592emsh3fc1f0fcf9b10a3p1a0b28jsn5ff89fd9fddf',
+            'X-RapidAPI-Key': 'e7f16cc786msh8628396e939fd01p1ee26ejsne59262b9610e',
             'X-RapidAPI-Host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
         }
     };
